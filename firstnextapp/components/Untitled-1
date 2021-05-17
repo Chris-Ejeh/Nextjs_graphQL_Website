@@ -1,0 +1,30 @@
+
+
+Stripe
+Capture user credit card info, and any other info u need on then client. You send that to stripe. Stripe come back with a token that good for one credit charge for what ever youi want. Throw that to your server side and then go throught with processing the transaction. 
+
+OrderType: 
+order 
+  price
+  charge
+  products
+  
+
+Permissions
+  - checkboxes can someone do something or not
+  - can see all users
+  - can edit product
+
+
+role 
+  Admin
+    - manageUser
+    - Manageproduct
+  Editor
+    - Read products
+    - x delete
+
+access Permission function - Yes or not
+
+access filter functions - Query a sub-set
+{ where: user: {id: id}}
