@@ -24,9 +24,34 @@ A website where users can buy and sell any products.
 
 # Mock Ups
 
-| Products Page                                                 | Order Page | Sell Page | Auth Page | Cart |
-| ------------------------------------------------------------- | ---------- | --------- | --------- | ---- |
-| <img src= "http://localhost:7000/images/Cart.png" width=500 > |
+| Products Page | 
+| ------------- |
+| <img src="https://github.com/Chris-Ejeh/Nextjs_graphQL_Website/blob/main/firstnextapp/pages/images/Products_Page.png" width="500" > | 
+|Product page queries the data from the graphql server and displays the products on the website UI. Implemented pagination - Apollo graphQL makes pagination very easy. Users can search for an item and add any item to the cart|
+
+
+
+
+| Order Page |
+|------------|
+|<img src="https://github.com/Chris-Ejeh/Nextjs_graphQL_Website/blob/main/firstnextapp/pages/images/Orders_Page.png" width="500" > |
+| On this page users can view their previous orders  |
+
+| Sell Page |
+|------------|
+|<img src="https://github.com/Chris-Ejeh/Nextjs_graphQL_Website/blob/main/firstnextapp/pages/images/Sell_Page.png" width="500" > |
+| On the sell page, a user can add item/items to be sold. Users can upload images, product name, price, and description |
+
+| Auth Page |
+|------------|
+|<img src="https://github.com/Chris-Ejeh/Nextjs_graphQL_Website/blob/main/firstnextapp/pages/images/SignUp_Page.png" width="500" > |
+| In the auth page, a user can sign in, sign up and reset password |
+
+| Cart |
+|------------|
+|<img src="https://github.com/Chris-Ejeh/Nextjs_graphQL_Website/blob/main/firstnextapp/pages/images/Cart.png" width="500" > |
+| In the Cart, users can view cart item and checkout using a credit card |
+
 
 ### First, run the development server:
 
